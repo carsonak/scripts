@@ -1,0 +1,8 @@
+# Location: ~/.config/shellcheckrc
+
+# Enable all optional checks
+enable=all
+# Disbale require-variable-braces
+disable=SC2250
+# Disable check-extra-masked-returns
+disable=SC2312

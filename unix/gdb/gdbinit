@@ -1,0 +1,4 @@
+# Location: ~/.config/gdbinit
+
+# Use intel assembly syntax
+set disassembly-flavor intel

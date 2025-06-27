@@ -1,0 +1,30 @@
+# Location: ~/.config/git/config
+
+[user]
+	name = Andrew
+	email = 49104171+carsonak@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+	autocrlf = input # line endings should not be converted
+[alias]
+	all = add --all
+	com = commit -m
+	pull-r = pull --rebase
+	recommit = commit --amend --no-edit
+	sts = status
+	pull-m = pull --no-rebase
+	cam = commit -am
+	last = log -3 HEAD
+[push]
+	autoSetupRemote = true # easier to push new branches.
+	followTags = true # push tags too.
+[diff]
+	renames = copies # Detect file renames and copies.
+	interHunkContext = 5 # Merge diffs of Hunks within a certain line limit.
+	algorithm = histogram
+[status]
+	showStash = true
+[help]
+	autoCorrect = prompt # autocorrect invalid commands and prompt to use them.

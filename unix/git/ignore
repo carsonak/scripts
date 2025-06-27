@@ -1,0 +1,15 @@
+# Location: ~/.config/git/ignore
+
+# vscode configs
+.vscode
+
+CMakeUserPresets.json
+
+# Python cache
+__pycache__
+
+.mypy_cache
+
+# Nodejs
+node_modules/
+package-lock.json
