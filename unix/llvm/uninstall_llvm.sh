@@ -16,4 +16,4 @@ sudo apt remove --autoremove \
     "lld$VERSION_SUFFIX" \
     "clangd$VERSION_SUFFIX" \
     "clang-format$VERSION_SUFFIX"
-sudo update-alternatives --remove clang "/usr/bin/clang-$LLVM_VERSION"
+sudo update-alternatives --remove clang "/usr/bin/clang$VERSION_SUFFIX"

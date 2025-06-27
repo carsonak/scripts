@@ -4,7 +4,7 @@
 INSTALL_SCRIPT_URL='https://apt.llvm.org/llvm.sh'
 INSTALL_SCRIPT_FILE="./llvm.sh"
 
-if ! cd "$0"
+if ! cd "$(dirname "$0")"
 then
     echo "ERROR: Could not change directory to '$0'" > /dev/stderr
     exit
